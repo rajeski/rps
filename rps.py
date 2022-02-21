@@ -1,4 +1,4 @@
-#Import
+#Import the following 
 
 from random import randint 
 
@@ -20,4 +20,9 @@ while player == False:
             print('You lose!', computer, 'covers', player)
         else: 
             print('You win!', player, 'crushes' computer)
+    elif player == 'Paper':
+        if computer == 'Scissors':
+            print('You lose!', computer, 'cut', player)
+        else: 
+            print('You win!', computer, 'covers', computer)
     
