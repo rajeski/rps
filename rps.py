@@ -6,6 +6,7 @@ from random import randint
 t = ['Rock', 'Paper', 'Scissors']
 
 #Assign random play to computer 
+computer = t[randint(0,2)]
 
 #Set player to false 
 player = False 
@@ -19,7 +20,7 @@ while player == False:
         if computer == 'Paper':
             print('You lose!', computer, 'covers', player)
         else: 
-            print('You win!', player, 'crushes' computer)
+            print('You win!', player, 'crushes', computer)
     elif player == 'Paper':
         if computer == 'Scissors':
             print('You lose!', computer, 'cuts', player)
