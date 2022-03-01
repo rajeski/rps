@@ -22,4 +22,6 @@ location_lbl.pack()
 image = Label(app, bitmap='')
 image.pack()
 
+temp_lbl = Label(app, text='temperate')
+
 app.mainloop()
